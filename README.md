@@ -4,7 +4,7 @@ Implement SkipGram with Negative Sampling, Subsampling and SubwordEmbedding(Fast
 
 referenced by [Piotr Bojanowski∗, Edouard Grave∗, Armand Joulin, Tomas Mikolov, “Enriching Word Vectors with Subword Information”, ACL 2017](https://arxiv.org/pdf/1607.04606.pdf)
 
-- Korea University Information Retrieval(COSE 472) Assignment5
+Korea University Information Retrieval(COSE 472) Assignment5
 
 -----
 
