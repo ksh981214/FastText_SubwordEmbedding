@@ -1,7 +1,31 @@
 # FastText_SubwordEmbedding
-Subword embedding model using character n-grams(2,3,4)
+
+Implement SkipGram with Negative Sampling, Subsampling and SubwordEmbedding(FastText) using character n-grams in word2vec.py
 
 ![ft](https://user-images.githubusercontent.com/38184045/71542465-45c5ee00-29aa-11ea-90e6-ef4fe4131546.PNG)
+
+- this model use 2,3,4 and special grams
+
+If you run "word2vec.py", you can train and test your models.
+
+How to run
+
+```python
+python word2vec.py [mode] [partition] [update_system] [sub_sampling]
+```
+- mode
+	- "SG" for skipgram only
+ 
+- partition
+	- "part" if you want to train on a part of corpus (fast training but worse performance) 
+	- "full" if you want to train on full corpus (better performance but very slow training)
+ 
+- update_system
+ 	- "NS" for Negative Sampling only
+
+- sub_sampling
+ 	- True or False
+
 
 - Result
 
